@@ -1,0 +1,13 @@
+[workspace]
+members = ["reflection-macros"]
+
+[package]
+name = "reflection"
+version = "0.1.0"
+edition = "2024"
+
+# [profile.dev]
+# lto = "thin"
+
+[dependencies]
+reflection-macros.path = "./reflection-macros/"
